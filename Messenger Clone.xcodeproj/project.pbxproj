@@ -13,6 +13,7 @@
 		630801C726C18D8A00D4BA3F /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630801C626C18D8A00D4BA3F /* VideoPlayerViewController.swift */; };
 		630801C926C18DBC00D4BA3F /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630801C826C18DBC00D4BA3F /* NewConversationViewController.swift */; };
 		630801CB26C18DD100D4BA3F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630801CA26C18DD100D4BA3F /* ProfileViewController.swift */; };
+		630801CE26C1B94100D4BA3F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630801CD26C1B94100D4BA3F /* Extensions.swift */; };
 		63A5F42526C1744800B42C34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A5F42426C1744800B42C34 /* AppDelegate.swift */; };
 		63A5F42726C1744800B42C34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A5F42626C1744800B42C34 /* SceneDelegate.swift */; };
 		63A5F42926C1744800B42C34 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A5F42826C1744800B42C34 /* ConversationsViewController.swift */; };
@@ -28,6 +29,7 @@
 		630801C626C18D8A00D4BA3F /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		630801C826C18DBC00D4BA3F /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		630801CA26C18DD100D4BA3F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		630801CD26C1B94100D4BA3F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		63A5F42126C1744800B42C34 /* Messenger Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Messenger Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A5F42426C1744800B42C34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63A5F42626C1744800B42C34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,8 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				63A5F42826C1744800B42C34 /* ConversationsViewController.swift */,
-				630801C026C18D0600D4BA3F /* LoginViewController.swift */,
-				630801C226C18D1F00D4BA3F /* RegisterViewController.swift */,
+				630801CC26C19F9100D4BA3F /* Login */,
 				630801C426C18D7300D4BA3F /* PhotoViewerViewController.swift */,
 				630801C626C18D8A00D4BA3F /* VideoPlayerViewController.swift */,
 				630801C826C18DBC00D4BA3F /* NewConversationViewController.swift */,
@@ -91,6 +92,7 @@
 			children = (
 				63A5F42426C1744800B42C34 /* AppDelegate.swift */,
 				63A5F42626C1744800B42C34 /* SceneDelegate.swift */,
+				630801CD26C1B94100D4BA3F /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -102,6 +104,15 @@
 				63A5F42F26C1744900B42C34 /* LaunchScreen.storyboard */,
 			);
 			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		630801CC26C19F9100D4BA3F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				630801C026C18D0600D4BA3F /* LoginViewController.swift */,
+				630801C226C18D1F00D4BA3F /* RegisterViewController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		63A5F41826C1744800B42C34 = {
@@ -208,6 +219,7 @@
 				630801C926C18DBC00D4BA3F /* NewConversationViewController.swift in Sources */,
 				63A5F42926C1744800B42C34 /* ConversationsViewController.swift in Sources */,
 				630801C726C18D8A00D4BA3F /* VideoPlayerViewController.swift in Sources */,
+				630801CE26C1B94100D4BA3F /* Extensions.swift in Sources */,
 				63A5F42526C1744800B42C34 /* AppDelegate.swift in Sources */,
 				630801CB26C18DD100D4BA3F /* ProfileViewController.swift in Sources */,
 				63A5F42726C1744800B42C34 /* SceneDelegate.swift in Sources */,

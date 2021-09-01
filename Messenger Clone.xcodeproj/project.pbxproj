@@ -15,6 +15,7 @@
 		630801CB26C18DD100D4BA3F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630801CA26C18DD100D4BA3F /* ProfileViewController.swift */; };
 		630801CE26C1B94100D4BA3F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630801CD26C1B94100D4BA3F /* Extensions.swift */; };
 		630801D026C6E0C200D4BA3F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 630801CF26C6E0C200D4BA3F /* GoogleService-Info.plist */; };
+		6357859D26DFA75B00BF58AE /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6357859C26DFA75B00BF58AE /* DatabaseManager.swift */; };
 		63A5F42526C1744800B42C34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A5F42426C1744800B42C34 /* AppDelegate.swift */; };
 		63A5F42726C1744800B42C34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A5F42626C1744800B42C34 /* SceneDelegate.swift */; };
 		63A5F42926C1744800B42C34 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A5F42826C1744800B42C34 /* ConversationsViewController.swift */; };
@@ -34,6 +35,7 @@
 		630801CA26C18DD100D4BA3F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		630801CD26C1B94100D4BA3F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		630801CF26C6E0C200D4BA3F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6357859C26DFA75B00BF58AE /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		63A5F42126C1744800B42C34 /* Messenger Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Messenger Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A5F42426C1744800B42C34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63A5F42626C1744800B42C34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				63A5F42426C1744800B42C34 /* AppDelegate.swift */,
 				63A5F42626C1744800B42C34 /* SceneDelegate.swift */,
 				630801CD26C1B94100D4BA3F /* Extensions.swift */,
+				6357859C26DFA75B00BF58AE /* DatabaseManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				630801C126C18D0600D4BA3F /* LoginViewController.swift in Sources */,
+				6357859D26DFA75B00BF58AE /* DatabaseManager.swift in Sources */,
 				630801C326C18D1F00D4BA3F /* RegisterViewController.swift in Sources */,
 				630801C926C18DBC00D4BA3F /* NewConversationViewController.swift in Sources */,
 				63A5F42926C1744800B42C34 /* ConversationsViewController.swift in Sources */,
